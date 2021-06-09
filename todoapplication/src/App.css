@@ -1,0 +1,33 @@
+.App{
+  height:100vh;
+  width:100vw;
+  background-color: rgb(168, 173, 182);
+  display: grid;
+  place-items: center;
+}
+.App_Container{
+  height:500px;
+  width: 700px;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(232, 234, 237);
+  border-radius: 12px;
+  padding:32px 0;
+}
+.App_todoContainer{
+  flex:1; /*we wnat the input all the way down and the todilist have the max espace*/
+  width: 100%;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+
+
+
+
+
+
+
